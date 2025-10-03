@@ -1,4 +1,4 @@
-export function logarTempoDeExecucao(emSegundos: boolean = false) {
+export function logarTempoDeExecucao(emSegundos: boolean = false) { // o decorator inspect do arquivo.ts não possui declaração porque não recebe parâmetros
     return function(
         target: any,
         propertyKey: string,
