@@ -6,7 +6,9 @@
         "noImplicitAny": true,
         "removeComments": true,
         "strictNullChecks": true,
-        "experimentalDecorators": true // Utilização de Decorators Experimentais
+        "experimentalDecorators": true, // Utilização de Decorators Experimentais
+        "sourceMap": false //true: Cria arquivos .map em dist e permite fazer o debug pelo navegador no código Typescript.
+        // (Abrir a aba console e apertar Ctrl + P para procurar o arquivo para depurar. Utilizar somente no ambiente de desenvolvimento.)
     },
     "include": ["app/src/**/*"]
 }
